@@ -2,10 +2,10 @@
   "name": "rest-api-proveedores-de-productos-para-mascotas",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/Index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js",
+    "dev": "nodemon src/Index.js",
+    "start": "node src/Index.js",
     "update-d": "ncu"
   },
   "author": "jscalderon65",
