@@ -1,6 +1,6 @@
 const {Router} = require("express");
 const {TotalSales, SalesInfo}=require("../Controllers/TotalSales.js");
-const {BestSellingProduct, BestSellingDay, WortsSellingDay}=require("../Controllers/SalesFilters.js");
+const {BestSellingProduct, BestSellingDay, WorstSellingDay}=require("../Controllers/SalesFilters.js");
 const ItacolDataSet = require("../DataSets/ItacolDataSet.js");
 const VecolDataSet = require("../DataSets/VecolDataSet.js");
 
@@ -9,7 +9,7 @@ const dataSets=[ItacolDataSet,VecolDataSet];
 
 router.get("/best_selling_product",(req,res)=>BestSellingProduct(req,res,dataSets));
 router.get("/best_selling_day",(req,res)=>BestSellingDay(req,res,dataSets));
-router.get("/worts_selling_day",(req,res)=>WortsSellingDay(req,res,dataSets));
+router.get("/worst_selling_day",(req,res)=>WorstSellingDay(req,res,dataSets));
 
 router.get("/sales_2020/itacol",(req,res)=>SalesInfo(req,res,ItacolDataSet));
 router.get("/sales_2020/vecol",(req,res)=>SalesInfo(req,res,VecolDataSet));
@@ -29,7 +29,7 @@ router.get("/",(req,res)=>{
             "/total_sales/itacol",
             "/total_sales/vecol",
             "/best_selling_product",
-            "/worts_selling_day",
+            "/worst_selling_day",
         ]
     }]);
 });

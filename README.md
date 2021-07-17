@@ -106,14 +106,14 @@ GET /best_selling_day
 
 >### Obtener el valor de las ganancias del día en el que menos se vendió de cada proveedor
 
-**URL**: `/worts_selling_day`
+**URL**: `/worst_selling_day`
 
 **Method**: `GET`
 
 **Requiere permisos**: `None`
 
 ```js 
-GET /worts_selling_day
+GET /worst_selling_day
 ```
 
 ## Construido con 🛠️

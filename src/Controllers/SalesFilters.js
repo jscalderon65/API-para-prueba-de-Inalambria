@@ -49,7 +49,7 @@ const BestSellingDay = (req, res, dataSets) => {
     res.json(bestProducts.flat());
 };
 
-const WortsSellingDay = (req, res, dataSets) => {
+const WorstSellingDay = (req, res, dataSets) => {
     const bestProducts = dataSets.map(data => {
         const [info, ...sales] = data;
 
@@ -72,4 +72,4 @@ const WortsSellingDay = (req, res, dataSets) => {
     res.json(bestProducts.flat());
 };
 
-module.exports = { BestSellingProduct, BestSellingDay, WortsSellingDay };
+module.exports = { BestSellingProduct, BestSellingDay, WorstSellingDay };
