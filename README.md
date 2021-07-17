@@ -39,7 +39,17 @@ Cabe resaltar que sobre estos Datasets se realizaron todas las operaciones suger
         }, 
     ...]
 ```
+## Instalación 🔧
 
+
+```
+git clone
+```
+## ¿Comó iniciar la app? 🔧
+
+```
+npm start
+```
 ## Rutas de la Api 📋
 
 >### Obtener la información completa de ventas
