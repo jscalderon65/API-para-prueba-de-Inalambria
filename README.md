@@ -39,17 +39,15 @@ Cabe resaltar que sobre estos Datasets se realizaron todas las operaciones suger
         }, 
     ...]
 ```
-## Instalación 🔧
+## Despliegue 📦
+
+<p>La API se desplegó en Heroku:</p>
 
 
-```
-git clone
-```
-## ¿Comó iniciar la app? 🔧
+>**<https://inalambria-api.herokuapp.com/>**
 
-```
-npm start
-```
+
+
 ## Rutas de la Api 📋
 
 >### Obtener la información completa de ventas
