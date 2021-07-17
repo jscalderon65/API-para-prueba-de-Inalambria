@@ -116,10 +116,6 @@ GET /best_selling_day
 GET /worts_selling_day
 ```
 
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
 ## Construido con 🛠️
 
 * [Node-Js](https://nodejs.org/es/) 
