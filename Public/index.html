@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="StyleSheet" href="styles.css" />
+    <script src="./app.js" type="module"></script>
+    <title>Inalambria Api</title>
+  </head>
+  <body>
+    <div class="main-container">
+        <div class="main-title">
+            Descripción de la API <i class="fas fa-code"></i>
+        </div>
+      <br />
+      <p class="lead">
+        El desarrollo de está Rest API hace parte de la prueba técnica para el
+        puesto de desarrollador junior de la empresa <b>Inalambria</b>.
+        <br />
+        <div class="alert alert-dark lead">
+            <b class="alert-heading  bold">Obtener la información completa de ventas
+            </b>
+           <hr/>
+            <p>Desarrolle un API Http REST funcional que permita consultar las ventas de grandes proveedores por cuatro criterios de búsqueda y que como resultado responda el detalle y el consolidado de las ventas.</p>
+          </div>
+      </p>
+      <br />
+      <p class="lead">
+          Tecnologías utilizadas:
+          <span class="badge bg-node">Node.js</span>
+          <span class="badge bg-express">Express.js</span>
+          <span class="badge bg-heroku">Heroku</span>
+      </p>
+      <div class="sub-title">
+        Rutas de la Api 📋
+      </div>
+      <br/>
+      <div class="alert text-white bg-dark lead">
+        <b class="alert-heading bold">Obtener la información completa de ventas
+        </b>
+        <hr>
+        <p><b class="bold">Url: 
+            <a href="/api/sales_2020/itacol" target="_blank"> /api/sales_2020/itacol</a>
+        <p><b class="bold">Url:
+            <a href="/api/sales_2020/vecol" target="_blank">  /api/sales_2020/vecol</a>
+        <p><b class="bold">Method:</b> <span class="badge bg-secondary">GET</span> </p>
+      </div>
+
+      <div class="alert text-white bg-dark lead">
+        <b class="alert-heading bold">Obtener la ganancia total de las ventas registradas
+        </b>
+        <hr>
+        <p><b class="bold">Url: 
+            <a href="/api/total_sales/itacol"target="_blank" > /api/total_sales/itacol</a>
+        <p><b class="bold">Url:
+            <a href="/api/total_sales/vecol" target="_blank">  /api/total_sales/vecol</a>
+        <p><b class="bold">Method:</b> <span class="badge bg-secondary">GET</span> </p>
+      </div>
+
+      <div class="alert text-white bg-dark lead">
+        <b class="alert-heading bold">Obtener el producto más vendido de cada proveedor
+        </b>
+        <hr>
+        <p><b class="bold">Url: 
+            <a href="/api/best_selling_product" target="_blank"> /api/best_selling_product</a>
+        <p><b class="bold">Method:</b> <span class="badge bg-secondary">GET</span> </p>
+      </div>
+
+      <div class="alert text-white bg-dark lead">
+        <b class="alert-heading bold">Obtener el valor de las ganancias del día en el que más vendió de cada proveedor
+        </b>
+        <hr>
+        <p><b class="bold">Url: 
+            <a href="/api/best_selling_day" target="_blank"> /api/best_selling_day</a>
+        <p><b class="bold">Method:</b> <span class="badge bg-secondary">GET</span> </p>
+      </div>
+ 
+      <div class="alert text-white bg-dark lead">
+        <b class="alert-heading bold">Obtener el valor de las ganancias del día en el que menos se vendió de cada proveedor
+        </b>
+        <hr>
+        <p><b class="bold">Url: 
+            <a href="/api/worst_selling_day" target="_blank"> /api/worst_selling_day</a>
+        <p><b class="bold">Method:</b> <span class="badge bg-secondary">GET</span> </p>
+      </div>
+      <br/>
+      <div class="footer"> 
+          
+          <a href="https://github.com/jscalderon65/API-para-prueba-de-Inalambria" target="_blank"> 
+            <i class="fab fa-github"></i></a>
+            
+            <a href="https://github.com/jscalderon65" target="_blank">  jscalderon65</a> 
+        
+        </div>
+        </div>
+  </body>
+</html>

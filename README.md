@@ -52,66 +52,66 @@ Cabe resaltar que sobre estos Datasets se realizaron todas las operaciones suger
 
 >### Obtener la información completa de ventas
 
-**URL**: `/sales_2020/itacol`
+**URL**: `/api/sales_2020/itacol`
 
-**URL**: `/sales_2020/vecol`
+**URL**: `/api/sales_2020/vecol`
 
 **Method**: `GET`
 
 **Requiere permisos**: `None`
 
 ```js 
-GET /sales_2020/:Nombre_De_Proveedor
+GET /api/sales_2020/:Nombre_De_Proveedor
 ```
 
 >### Obtener la ganancia total de las ventas registradas
 
-**URL**: `/total_sales/itacol`
+**URL**: `/api/total_sales/itacol`
 
-**URL**: `/total_sales/vecol`
+**URL**: `/api/total_sales/vecol`
 
 **Method**: `GET`
 
 **Requiere permisos**: `None`
 
 ```js 
-GET /total_sales/:Nombre_De_Proveedor
+GET /api/total_sales/:Nombre_De_Proveedor
 ```
 
 >### Obtener el producto más vendido de cada proveedor
 
-**URL**: `/best_selling_product`
+**URL**: `/api/best_selling_product`
 
 **Method**: `GET`
 
 **Requiere permisos**: `None`
 
 ```js 
-GET /best_selling_product
+GET /api/best_selling_product
 ```
 
 >### Obtener el valor de las ganancias del día en el que más vendió de cada proveedor
 
-**URL**: `/best_selling_day`
+**URL**: `/api/best_selling_day`
 
 **Method**: `GET`
 
 **Requiere permisos**: `None`
 
 ```js 
-GET /best_selling_day
+GET /api/best_selling_day
 ```
 
 >### Obtener el valor de las ganancias del día en el que menos se vendió de cada proveedor
 
-**URL**: `/worst_selling_day`
+**URL**: `/api/worst_selling_day`
 
 **Method**: `GET`
 
 **Requiere permisos**: `None`
 
 ```js 
-GET /worst_selling_day
+GET /api/worst_selling_day
 ```
 
 ## Construido con 🛠️
